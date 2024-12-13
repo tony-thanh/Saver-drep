@@ -76,6 +76,15 @@
       {
         "@type": "Link",
         "label": {
+          "@value": "Vtechcom Company Website"
+        },
+        "uri": {
+          "@value": "https://vtechcom.org/"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
           "@value": "Linkedin"
         },
         "uri": {

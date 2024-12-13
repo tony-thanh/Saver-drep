@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "Tony | Thanh"
+    },
+    "motivations": {
+      "@value": "I believe that a truly decentralized blockchain system distributes power, minimizes monopolies, and enables all participants to express their will. Every decision should be grounded in clear principles, supported by convincing reasoning, and subject to community oversight. With my expertise as a developer holding a formal degree in E-commerce Business Administration from TMU University, and currently serving as the CEO of a technology company operating for nearly a decade in Vietnam, I am confident in my ability to contribute toward making the best possible decisions for the ecosystem."
+    },
+    "objectives": {
+      "@value": "I aspire to participate in order to promote a fair, transparent, and sustainable decision-making process. Additionally, I aim to foster greater community engagement, ensuring that every member fully understands and actively takes part in voting, discussions, and proposing ideas thereby contributing to an ecosystem enriched with a diverse range of concepts and solutions"
+    },
+    "paymentAddress": {
+      "@value": "addr1q99nt07hxtt0j08d326ma9jjpguhn24zlhvdfnzht6x32rfwrggrwh3lmm8ngxcsj3h77gz0lcf22n4h76020mz5jngq27z8f4"
+    },
+    "qualifications": {
+      "@value": "Information Technology Engineer\nBachelor’s degree in E-commerce Business Administration\nGraduate of TMU University, Vietnam\nCEO of Vtechcom Company"
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Linkedin"
+        },
+        "uri": {
+          "@value": "https://www.linkedin.com/in/nguyenvietthanh/"
+        }
+      },
+      {
+        "@type": "Identity",
+        "label": {
+          "@value": "X | Twitter"
+        },
+        "uri": {
+          "@value": "https://x.com/tony_thanh_"
+        }
+      }
+    ]
+  }
+}
